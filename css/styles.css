@@ -62,7 +62,7 @@ body {
 }
 
 .title {
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: left;
 }
 
@@ -90,12 +90,12 @@ body {
     font-size: 1rem;
     color: #d3d3d3;
     margin-top: 10px;
-    max-width: 500px;
     text-align: justify;
+    font-size: 20px;
 }
 
 .info-content .description {
-    margin-left: 30%;
+    text-align: center;
 }
 
 footer {
@@ -291,3 +291,14 @@ footer {
     align-items: center;
     margin-bottom: 20px; 
 }
+
+.centered-text p {
+    width: 60%;
+    margin-left: 20%;
+    line-height: 1.6;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: -4%;
+    color: #D3D3D3;
+}
+
