@@ -343,3 +343,20 @@ footer {
     z-index: 10; 
     position: relative;
 }
+
+.branqueamento img{
+    border: 2px solid #FFA500;
+    border-radius: 7px;
+    margin-top: 2%;
+}
+
+.imgcoral img{
+    border: 2px solid #FFA500;
+    border-radius: 7px;
+}
+
+.coralb2b img{
+    border: 2px solid #FFA500;
+    border-radius: 7px;
+    margin-top: 2%;
+}
