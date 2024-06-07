@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aspectos Técnicos</title>
+    <link rel="icon" type="image/png" href="../images/icone.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script type="text/javascript" src="../script.js"></script>
+</head>
+<body>
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../images/icone.png" width="40" height="40" alt="Coral Ecológico Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.youtube.com/watch?v=KfT9ai0tE-Q" target="_blank">Vídeo PITCH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre o Projeto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="diagramas.html">Aspectos Técnicos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <div class="main-content">
+        <div class="content-wrapper">
+            <div class="info-content">
+                <h1 class="title text-center">Aspectos Técnicos</h1>
+                <p class="description text-center">O projeto Coral Ecológico utiliza de diversas tecnologias para obtenção dos melhores resultados em prol do ecossistema marinho. Alguns desses recursos estão disponíveis para visualização nesta página, para melhor compreensão e incentivo para aqueles que gostariam de ajudar.
+                    <br><br><br><br>*Clique nas imagens para ampliar, e para reduzir seu tamanho.
+                </p>
+                <br>
+            
+                <!-- Diagramas -->
+                <div class="team-section">
+                    <div class="container">
+                        <div class="row">
+                            <!-- Card 1 -->
+                            <div class="col-md-6">
+                                <div class="card" onclick="toggleCard(this)">
+                                    <img src="../images/Analise_Coral.jpg" class="card-img-top" alt="">
+                                    <div class="card-body text-center show">
+                                        <h5 class="card-title">IA para Análise de Corais</h5>
+                                        <p class="card-text">Com a utilização de uma ferramenta de IA robusta, o projeto pôde sair do papel, pois conseguimos analisar corais, identificando padrões, principalmente os que estão embranquecendo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-md-6">
+                                <div class="card" onclick="toggleCard(this)">
+                                    <img src="../images/MER.jpg" class="card-img-top" alt="">
+                                    <div class="card-body text-center show">
+                                        <h5 class="card-title">Modelo Entidade Relacionamento</h5>
+                                        <p class="card-text">A forma como nos organizamos reflete diretamente nos resultados que queremos alcançar e, portanto, um banco de dados devidamente projetado proporciona um projeto seguro e bem estruturado</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="footer-container">
+        <div class="container">
+            <div class="footer-icons">
+                <img src="../images/icons8-github-30.png" alt="GitHub">
+                <img src="../images/icons8-instagram-30.png" alt="Instagram">
+                <img src="../images/icons8-linkedin-30.png" alt="LinkedIn">
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
